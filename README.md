@@ -24,3 +24,10 @@ The suspension coil’s PSI continuous variable across all manufacturing lots
 The following PSI metrics for each lot: mean, median, variance, and standard deviation.
 
 Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
+## T-Tests on Suspension Coils
+There is not a statistically significant difference in means at the 95% confidence level.
+![Images/D3_Ttest_Results.png](Images/D3_Ttest_Results.png)
+
+## Study Design: MechaCar vs Competition
+
