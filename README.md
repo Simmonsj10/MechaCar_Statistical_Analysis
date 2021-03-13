@@ -31,12 +31,15 @@ In addition to summary statistics, we have run T-Test models on the various manu
 ![Images/D3_Ttest_Results.png](Images/D3_Ttest_Results.png)
 
 ## Study Design: MechaCar vs Competition
-We will design a study that quantifies how the MechaCar performs against a competiitor car (ElektraCar). In order to quantify the performance, we will run a series of tests to collect enough datapoints on MechaCars (recommend at least 40 for each metrics). We will run the same number of tests on ElektraCar.
+We will design a study that quantifies how the MechaCar performs against a competiitor car (ElektraCar). In order to quantify the performance, we will run a series of tests to collect enough datapoints on one MechaCar type (40 data points for each metric). We will run the same number of tests one competitor, ElektraCar, type.
 
 We will compare the car performance on 
-1. City fuel efficiency,
-2. Highway fuel efficiency, 
-3. Horse power
-4. Weight
-5. Time to reach 60 mph (acceleration).
+1. City fuel efficiency - Across 40 MechaCar & ElektraCar vehicles what is the fuel efficiency for each?
+2. Highway fuel efficiency - Across 40 MechaCar & ElektraCar vehicles what is the fuel efficiency for each?
+3. Horse power - Across 40 MechaCar & ElektraCar vehicles what is the actual Horse Power for each?
+4. Weight - 40 weight measurements on each car type
+5. Time to reach 60 mph (acceleration) - 40 acceleration tests on each car type.
+
+Upon collecting the data, we will run a T-Test in order to determine, which is the better car across each metric. The T-Test will compare the average performance across each metric and provide us the statistical confidence (95%) to compare the differences between the two car types. The null hypothesis would state that there is no statistical difference between the cars on the particular metric i.e. City Fuel Efficiency. The alternative hypothesis would state that there is a statistical difference between the mean of each car. With the outcome of this test, we could evaluate what car is better on the particular metric. A T-Test would be appropriate for this type of test, because we would have Dichotomous data type (MechaCar A v ElektraCar B) across multiple continous data types. Each metric would require it's own T-Test.
+
 
